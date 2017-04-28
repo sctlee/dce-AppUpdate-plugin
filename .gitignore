@@ -1,0 +1,16 @@
+node_modules/
+bower_components/
+coverage/
+dist/
+changelogs/
+src/index.scss
+.*
+!.bowerrc
+!.editorconfig
+!.eslintrc
+!.gitignore
+!.yo-rc.json
+!.eslintignore
+Vagrantfile
+vendor-manifest.json
+src/config/containerTemplate.js
