@@ -7,3 +7,6 @@ dev: install
 
 build:
 	@npm run build
+
+image:
+	@docker build -t 10.211.55.40/daocloud/dce-app-update-plugin:0.0.1 .

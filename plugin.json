@@ -1,0 +1,20 @@
+{
+  "Name": "AppUpdate",
+  "Icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICA8dGl0bGU+YXBwLWxvYWQtYmFsYW5jZXI8L3RpdGxlPgogIDxnPgogICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiMyNTM1NWEiLz4KICAgIDxwYXRoIGQ9Ik01MCwxOEEzMiwzMiwwLDEsMCw4Miw1MCwzMiwzMiwwLDAsMCw1MCwxOFpNNjgsMzkuNzE0QTEuMjg2LDEuMjg2LDAsMCwxLDY2LjcxNCw0MUg2MC4yODZBMS4yODYsMS4yODYsMCwwLDEsNTksMzkuNzE0VjM3Ljc4Nkg1My44NTdhMS4yODcsMS4yODcsMCwwLDAtMS4yODYsMS4yODZ2OS42NDNINTlWNDYuNzg2QTEuMjg2LDEuMjg2LDAsMCwxLDYwLjI4Niw0NS41aDYuNDI5QTEuMjg2LDEuMjg2LDAsMCwxLDY4LDQ2Ljc4NnY2LjQyOUExLjI4NiwxLjI4NiwwLDAsMSw2Ni43MTQsNTQuNUg2MC4yODZBMS4yODYsMS4yODYsMCwwLDEsNTksNTMuMjE0VjUxLjI4Nkg1Mi41NzF2OS42NDNhMS4yODcsMS4yODcsMCwwLDAsMS4yODYsMS4yODZINTlWNjAuMjg2QTEuMjg2LDEuMjg2LDAsMCwxLDYwLjI4Niw1OWg2LjQyOUExLjI4NiwxLjI4NiwwLDAsMSw2OCw2MC4yODZ2Ni40MjlBMS4yODYsMS4yODYsMCwwLDEsNjYuNzE0LDY4SDYwLjI4NkExLjI4NiwxLjI4NiwwLDAsMSw1OSw2Ni43MTRWNjQuNzg2SDUzLjg1N0EzLjg2MSwzLjg2MSwwLDAsMSw1MCw2MC45MjlWNTEuMjg2SDQ3LjQyOXY1LjE0M2ExLjI4NiwxLjI4NiwwLDAsMS0xLjI4NiwxLjI4NkgzMy4yODZBMS4yODYsMS4yODYsMCwwLDEsMzIsNTYuNDI5VjQzLjU3MWExLjI4NiwxLjI4NiwwLDAsMSwxLjI4Ni0xLjI4Nkg0Ni4xNDNhMS4yODYsMS4yODYsMCwwLDEsMS4yODYsMS4yODZ2NS4xNDNINTBWMzkuMDcxYTMuODYxLDMuODYxLDAsMCwxLDMuODU3LTMuODU3SDU5VjMzLjI4NkExLjI4NiwxLjI4NiwwLDAsMSw2MC4yODYsMzJoNi40MjlBMS4yODYsMS4yODYsMCwwLDEsNjgsMzMuMjg2WiIgZmlsbD0iI2Y2ZjZmNyIvPgogIDwvZz4KPC9zdmc+Cg==",
+  "Extensions": {
+    "daocloud.AppUpdate.Application.manage": {
+      "ExtendedPoint": "dce.core.Application.manageViews",
+      "Object": {
+        "Name": "动态更新",
+        "ComponentClass": {
+          "ClassName": "dce.client.htmlbridge.HtmlView",
+          "Object": {
+            "Root": {
+              "URL": "/"
+            }
+          }
+        }
+      }
+    }
+  }
+}
